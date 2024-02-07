@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    height: 100vh;
+    background:linear-gradient(135deg, #377bea,#da11f5);
+}
+.heading h1{
+    display: flex;
+    width: 100%;
+    font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color:cadetblue;
+  justify-content: center;
+  margin: 0px auto 50px;
+}
+.main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aliceblue;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #262626;
+    border-radius: 20px;
+}
+.main #title {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.main button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: #262626;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color .3s,border .3s,color .3s;
+}
+.main button:hover{
+    background-color: #fff;
+    border: 1px solid #262626;
+    color: #262626;
+}
+.quizz-container{
+    display: none;
+}
+
+.question h5{
+   
+    display: flex;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+    justify-content: left;
+   
+}
+.answer{
+    margin-top: 20px;
+}
+.option{
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid #262626;
+    padding: 10px;
+    transition:background-color .3s, color .3s;
+}
+.option:hover{
+background-color: #262626;
+color: #fff;
+}
+.correct{
+    background-color: aquamarine;
+    opacity: .5;
+}
+.wrong{
+    background-color: crimson;
+    opacity: .5;
+}
+
+.answer label{   
+ font-size: 18px;
+ font-weight: 500;
+ margin-left: 10px;
+}
+#action-btn{
+    display: none;
+    margin-top: 30px;
+}
+#retun-quizz{
+    display: none;
+    margin: 50px auto 0px;
+}
