@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background: linear-gradient(135deg,#4bbdfe,#bd0191);
+    height: 100vh;
+}
+.main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    border: 1px solid #262626;
+    background-color: #fff;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.main img{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+.vibrating-img{
+    
+    animation: vibrate 0.1s infinite alternate;;
+}
+
+@keyframes vibrate{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-5px);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    75%{
+        transform: translateX(-5px);
+    }
+    0%{
+        transform: translateX(5px);
+    }
+}
+.main h2{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.time{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+
+.main button{
+margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #4bbdfe;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition:background-color .3s,color .3s ;
+}
+.main button:hover{
+    background-color: #fff;
+    border: 1px solid #4bbdfe;
+    color: #4bbdfe;
+}
+.option {
+    position: relative;
+}
+
+.option select {
+    width: 100px;
+    border: 1px solid #262626;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    max-height: 100px;
+    position: relative;
+    top: 0; 
+}
+
