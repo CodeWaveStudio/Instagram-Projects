@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background: linear-gradient(135deg,#4bbdfe,#bd0191);
+    height: 100vh;
+}
+.title h1{
+    display: flex;
+    margin: 50px auto 0px;
+ justify-content: center;
+ align-items: center;
+     font-size: 36px;
+     color: #fff;
+     font-weight: 700;
+     letter-spacing: 1px;
+}
+.main{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+flex-wrap: wrap;
+width: 500px;
+gap: 30px;
+border: 1px solid #ffff;
+justify-content: center;
+align-items: center;
+padding: 30px;
+border-radius: 20px;
+}
+
+.box{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #262626;
+    border-radius: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+.image{
+    display: flex;
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+ background: url('Avtar3.jpeg');
+ background-size: cover;
+background-position: center;
+ }
+.hovered{
+    border: 2px dashed #fff;
+ }
