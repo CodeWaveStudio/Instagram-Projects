@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color:aliceblue;
+    height: 100vh;
+}
+.main{
+    position: absolute;
+    top: -25;
+    visibility: hidden;
+    left: 50%;
+    transform: translate(-50%,0%);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: none;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    align-items: center;
+}
+.message img{
+width: 40px;
+height: 40px;
+}
+.message h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+    }
+.main p{
+margin-top: 10px;
+font-size: 16px;
+}
+.main button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    margin: 15px;
+    font-size: 18px;
+    border: none;
+    background-color: cornflowerblue;
+    color: #fff;
+    font-weight: 500;
+    transition:background-color .3s,color .3s ;
+    }
+    .main button:hover{
+        border: 1px solid cornflowerblue;
+        background-color: #fff;
+        color: cornflowerblue;
+    }
+   
+
+    .offline{
+        top: 0;
+        visibility: visible;
+    }
+    .title{
+        display: flex;
+        margin: 250px auto;
+        justify-content: center;
+        align-items: center;
+        font-size: 34px;
+    }
