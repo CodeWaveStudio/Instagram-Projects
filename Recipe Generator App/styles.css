@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background: url('3d-dark-grunge-display-background-with-smoky-atmosphere.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.conatiner{
+    display: flex;
+}
+.main input{
+width: 300px;
+height: 50px;
+border: none;
+outline: none;
+padding: 20px;
+border-radius: 5px;
+}
+.main button{
+width: 160px;
+height: 50px;
+background-color: cadetblue;
+border: none;
+outline: none;
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+padding: 5px;
+border-radius: 0px 5px 5px 0px;
+transition:background-color .3s,color .3s ;
+}
+.main button:hover{
+    background-color: #fff;
+    border: 1px solid cadetblue;
+    color: cadetblue;
+}
+.error{
+    
+    margin: 0px 0px 0px -360px;
+    color: rgb(161, 17, 17);
+    font-size: 12px;
+    font-weight: 500;
+}
+.recipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+    margin: 0% auto;
+}
+.recipe h2{
+  
+  font-size: 12px;
+  font-weight: 500;  
+ width: 100%;
+  margin: 5px 0px 0px -100px;
+  text-align: justify;
+  color: #fff;
+}
+.recipe img{
+   
+    margin-top: -10px;
+width: 250px;
+height: 150px;
+}
+.recipe p{
+    
+   font-size: 12px;
+   font-weight: 500;  
+  text-align: justify;
+   margin: 10px 0px 0px -50px;
+   color: cornflowerblue;
+ }
