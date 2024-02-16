@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color:aliceblue;
+    height: 100vh;
+}
+.title{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+}
+.title h1{
+    color: #262626;
+    font-size: 32px;
+    font-weight: 500;
+    }
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.generate_otp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.generate_otp input{
+    
+    width: 280px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.generate_otp button,.verify_otp button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: cadetblue;
+    font-size: 18px;
+    color: #fff;
+    transition:background-color .3s,color .3s ;
+}
+.generate_otp button:hover,.verify_otp button:hover{
+    background-color: #fff;
+    color: cadetblue;
+    border: 1px solid cadetblue;
+}
+.verify_otp{
+    display: none;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.colmns{
+    display: flex;
+    gap: 20px;
+}
+.verify_otp input{
+width: 40px;
+height: 40px;
+border: none;
+outline: none;
+border-radius: 10px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+padding: 10px;
+}
+.verify_otp h5{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.error{
+    display: flex;
+    justify-content: center;
+ margin-bottom: 10px;
+ align-items: center;
+}
+.error h5{
+font-size: 15px;
+color: rgb(182, 5, 5);
+font-weight: 500;
+text-align: center;
+}

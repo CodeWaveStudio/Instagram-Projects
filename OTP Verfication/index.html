@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verfication</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">
+        <h1>OTP Verfication</h1>
+    </div>
+    <div class="main">
+       
+        <div class="error">
+            <h5></h5>
+        </div>
+        <div class="generate_otp">
+            <input type="number" id="enter_mo" placeholder="Enter mobile number..." maxlength="10">
+            <button id="gen-Otp">Generate OTP</button>
+        </div>
+        <div class="verify_otp">
+            <div class="colmns">
+                <input type="text" maxlength="1" id="otp1">
+                <input type="text" maxlength="1" id="otp2">
+                <input type="text" maxlength="1" id="otp3">
+                <input type="text" maxlength="1" id="otp4">
+            </div>    
+            <h5 id="time-interval">otp expires in <b>30s</b></h5>
+            <button id="verify-Otp">Verify OTP</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
