@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Currency Exchanger</h1>
+    </div>
+    <div class="main">
+        <input type="text" id="input-amt">
+        <div class="droplist">
+            <div class="from">
+                <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                <select id="from-country">
+                    <option value="">USA</option>
+                    <option value="">IND</option>
+                </select>
+            </div>
+            <div class="exchange">
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            </div>
+            <div class="to">
+                <img src="https://flagcdn.com/48x36/in.png" alt="flag">
+                <select id="to-country">
+                    <option value="">USA</option>
+                    <option value="">IND</option>
+                </select>
+            </div>
+            
+        </div>
+        <div class="exchangerate">
+            <span>Getting exchange rate..</span>
+        </div>
+        <button id="act-Btn">Exchange</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
