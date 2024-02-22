@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color:aliceblue;
+    height: 100vh;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    }
+    .title h1{
+        color: #262626;
+        font-size: 32px;
+        font-weight: 500;
+        }
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 550px;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    padding: 50px 10px;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.main input{
+    width: 280px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 15px rgba(26, 26, 26, 0.2);
+    font-size: 14px;
+    font-weight: 500;
+}
+.droplist{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+   padding: 10px;
+   
+}
+.from,.to{
+    padding: 5px 15px;
+    border: 1px solid #262626;
+
+}
+.droplist img{
+
+    width: 30px;
+    height: 20px;
+}
+.droplist select{
+    width: 60px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.main button{
+    margin-top: 0px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: cadetblue;
+    font-size: 18px;
+    color: #fff;
+    transition:background-color .3s,color .3s ;
+}
+.main button:hover{
+    background-color: #fff;
+    color: cadetblue;
+    border: 1px solid cadetblue;
+}
