@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.title{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+   margin: 100px auto 0px auto;
+    }
+    .title h1{
+        text-align: center;
+        color: #262626;
+        font-size: 32px;
+        font-weight: 500;
+        }
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   background-color: antiquewhite;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+.hat{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: end;
+    width: 350px;
+    height: 200px;
+    background-color: #262626;
+    border-radius: 100px 100px 0px 0px;
+    margin-bottom: 20px;
+}
+.hatbottom{
+    width: 450px;
+    height: 50px;
+    background-color:#262626 ;
+    border-radius: 10px 10px 50px 50px;
+}
+.eye_container{
+    margin-top: 50px;
+    width: 500px;
+    height: 50px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.eye{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #262626;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+.eye-ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+  background-color: rgb(108, 39, 39);
+  border-radius: 50%;
+  margin: 25px 20px;
+}
+.eyeballsmall{
+   
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+.eye_effect{
+ 
+    width: 10px;
+    height: 10px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
