@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emi Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">
+        <h1>EMI Calculator with Pie Chart</h1>
+    </div>
+    <div class="main">
+        <div class="input-fields">
+            <div class="fields">
+                <label for="">Loan Amount:</label>
+                <input type="text" id="loan-amt">
+            </div>
+            <div class="fields">
+            <label for="">Tenure:</label>
+            <input type="text" id="tenure">
+        </div>
+        <div class="fields">
+            <label for="">Rate Of interest:</label>
+            <input type="text" id="interest">
+        </div>
+        <button id="act-Btn">Calculate</button>
+        </div>
+        <div class="output-fileds">
+            <ul>
+                <li>
+                    <h5>EMI: <span></span> </h5>
+                </li>
+                <li>
+                    <h5>Priciple amount: <span></span> </h5>
+                </li>
+                <li>
+                    <h5>interest Amount: <span></span> </h5>
+                </li>
+                <li>
+                    <h5>Total Amount Payable: <span></span> </h5>
+                </li>
+            </ul>
+            <div id="container"></div>
+        </div>
+       
+    </div>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+</html>
